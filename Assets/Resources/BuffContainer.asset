@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525b85b7b8539cc4b92d9678b6e815f3, type: 3}
+  m_Name: BuffContainer
+  m_EditorClassIdentifier: 
+  data:
+  - Target: {fileID: 11400000, guid: 6ec69acaf9523674f8d391ff8d1bee8e, type: 2}
+    Modificators:
+    - {fileID: 11400000, guid: 9f9ba2e7477502d41a0e022bce40f069, type: 2}
+    - {fileID: 11400000, guid: b02b9e806caf9e74b8bb63bfe06e74b1, type: 2}
+  - Target: {fileID: 11400000, guid: 6b112dc1c69e3e74694ec0790533c8b0, type: 2}
+    Modificators:
+    - {fileID: 11400000, guid: 42925c3a1b93fd7408ee15145b28fc98, type: 2}
+    - {fileID: 11400000, guid: e1972fea6ca323f4d9049181e63d4ef1, type: 2}
+    - {fileID: 11400000, guid: 963f80c3ad9f5a149a75683d2e53057a, type: 2}
+    - {fileID: 11400000, guid: 214ae87c70d665844a67a255659b9427, type: 2}
+  - Target: {fileID: 11400000, guid: 268ed52ef206e204f89fbdc584217939, type: 2}
+    Modificators:
+    - {fileID: 11400000, guid: 800bfe835ecff804a8a6bfa16d8d7b55, type: 2}

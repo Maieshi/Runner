@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79db6a70d52b634494d45abf8ac3afa, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 7626333373831909249, guid: 33fd8279af812354680c5e326f4792df, type: 3}
+  PlayerForwardSpeed: {fileID: 11400000, guid: 6ec69acaf9523674f8d391ff8d1bee8e, type: 2}
+  PlayerHp: {fileID: 11400000, guid: 6b112dc1c69e3e74694ec0790533c8b0, type: 2}
+  PlayerHorizontalSpeed: 4
+  PlayerGravityScale: 6
+  PlayerJumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.00022293837
+      value: 1
+      inSlope: -0.038565468
+      outSlope: -0.038565468
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.18211526
+    - serializedVersion: 3
+      time: 0.99998146
+      value: -0.00045168912
+      inSlope: -2.9719653
+      outSlope: -2.9719653
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.05759531
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PlayerJumpDuration: 0.5
+  PlayerJumpSpeed: {fileID: 11400000, guid: 268ed52ef206e204f89fbdc584217939, type: 2}
+  PlayerCameraSensitivity: 1

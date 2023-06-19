@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5dab341bdda5e40a033729cada250c, type: 3}
+  m_Name: SpawnData
+  m_EditorClassIdentifier: 
+  PlatformData:
+  - PrefabData: {fileID: 17220250828366093, guid: c54ca4f4ac1e52f45b5337e7a18b0644, type: 3}
+    Probability: 12
+  - PrefabData: {fileID: 9000776049117844389, guid: 24bcb46ba96440c49b77dc261e53d70f, type: 3}
+    Probability: 12
+  - PrefabData: {fileID: 3233562897493330229, guid: ec369f30395d7e941b09ea8ab40a28ab, type: 3}
+    Probability: 50
+  - PrefabData: {fileID: 3493014804836357562, guid: 57f7a6007b94e184ca2f39fc5fd52c73, type: 3}
+    Probability: 12
+  - PrefabData: {fileID: 9148171933191318011, guid: cf341a117470a1c4180f5626607e267b, type: 3}
+    Probability: 3.5
+  - PrefabData: {fileID: 4915758114301353924, guid: b41f788a941dcfd409143a522b274d7e, type: 3}
+    Probability: 3.5
+  - PrefabData: {fileID: 3264976166721422748, guid: 1869259d3bfbd9b46871808fd73bd922, type: 3}
+    Probability: 3.5
+  - PrefabData: {fileID: 8376332602348426276, guid: 162b1a1554c41af42bfe96fe06509943, type: 3}
+    Probability: 3.5
+  ObstacleData:
+  - PrefabData: {fileID: 8723295238566317959, guid: 6441af1bd66122a429e9ca34fb32c8b6, type: 3}
+    Probability: 30
+  - PrefabData: {fileID: 8953024006815538672, guid: e2bfca728680a0642bca1d99be2f9e42, type: 3}
+    Probability: 10
+  - PrefabData: {fileID: 4921899635222700963, guid: cb893897a55d54842ab7e0b4ca0842b5, type: 3}
+    Probability: 30
+  - PrefabData: {fileID: 6135601258464911822, guid: a67705c78d9fe6c4b93bde1610dcf5da, type: 3}
+    Probability: 10
+  - PrefabData: {fileID: 2564781911501025244, guid: aaf88d0a80232a7438403be289e5e9b3, type: 3}
+    Probability: 10
+  - PrefabData: {fileID: 2194461834209686596, guid: 875ed6888307b4e42bf3877a3f6ed613, type: 3}
+    Probability: 10
+  BoosterData:
+  - PrefabData: {fileID: 6725215389425700429, guid: 0b6d469eb141802478d3d08a3a34a7a8, type: 3}
+    Probability: 30
+  - PrefabData: {fileID: 1562266950837398885, guid: 861e68bfbb708914db1d35dc04f322c9, type: 3}
+    Probability: 30
+  - PrefabData: {fileID: 1648093834522893496, guid: da49bf7a6ca50224c9a4e1ed1d49af55, type: 3}
+    Probability: 30
+  - PrefabData: {fileID: 517584720010636717, guid: b33269c962d56da4089dd92fbc10f48f, type: 3}
+    Probability: 10
+  StartPlatform: {fileID: 8992662316762378841, guid: a05a6220bf7d5f342955abd597c3fd7a, type: 3}
+  FinishPlatform: {fileID: 4863015461756890499, guid: ad336feff36d8a74c80761f9412be833, type: 3}
+  TransitionPlatform: {fileID: 5860329862139485593, guid: be5aa65b52bfad449b7090faa295ec01, type: 3}
+  MinPlatformAmount: 5
+  MaxPlatformAmount: 10
+  MinObstaclesDistance: 3
+  ObstacleSpawnProbability: 70
+  MinBoostDistance: 5
+  BoostSpawnProbability: 5
+  MaxTransitions: 3
+  SpawnBorder: 2
